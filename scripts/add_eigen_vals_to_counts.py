@@ -7,7 +7,7 @@ import sys
 
 
 if len(sys.argv) < 3:
-  print("Expected Usage:\n\n\tpython add_eigen_val..... <><><>")
+  print("Expected Usage:\n\tpython add_eigen_vals_to_counts.py <Eigen_Cent_Values_csv><Raw_Count_Data.csv><Output_file.csv>")
   sys.exit(1)
 
 eigen_cent_file = sys.argv[1]
